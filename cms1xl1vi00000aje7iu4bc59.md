@@ -19,8 +19,6 @@ By the end of this note, you'll understand:
 *   Why smaller images actually matter in real projects
     
 
-* * *
-
 ### 1\. The Problem: Why Docker Images Get Huge
 
 When you build a Docker image the "normal" way, you usually start from a full operating system image like `ubuntu`, then install all the tools you need to **build** your app (compilers, package managers, libraries) inside that same image.
